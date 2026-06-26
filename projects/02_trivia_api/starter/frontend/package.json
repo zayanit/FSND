@@ -4,7 +4,6 @@
   "private": true,
   "proxy": "http://127.0.0.1:5000/",
   "dependencies": {
-    "corsproxy": "^1.5.0",
     "jquery": "^3.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -21,7 +20,9 @@
     "extends": "react-app"
   },
   "overrides": {
-    "ejs": "3.1.10"
+    "ejs": "3.1.10",
+    "serialize-javascript": "7.0.6",
+    "underscore": "1.13.8"
   },
   "browserslist": {
     "production": [
