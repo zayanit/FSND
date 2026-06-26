@@ -20,6 +20,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "overrides": {
+    "ejs": "3.1.10"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
