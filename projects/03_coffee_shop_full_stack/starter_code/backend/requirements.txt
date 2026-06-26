@@ -1,6 +1,5 @@
 astroid==2.2.5
 Click==7.0
-ecdsa==0.19.2
 Flask==3.1.3
 Flask-SQLAlchemy==2.4.0
 future==1.0.0
@@ -10,9 +9,8 @@ Jinja2==3.1.5
 lazy-object-proxy==1.4.0
 MarkupSafe==1.1.1
 mccabe==0.6.1
-pycryptodome==3.19.1
 pylint==2.3.1
-python-jose-cryptodome==1.3.2
+python-jose[cryptography]>=3.4.0
 six==1.12.0
 typed-ast==1.4.2
 Werkzeug>=3.1.8
