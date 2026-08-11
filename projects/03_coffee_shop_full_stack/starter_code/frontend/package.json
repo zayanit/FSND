@@ -34,7 +34,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~20.3.30",
     "@angular/cli": "~21.0.4",
-    "@angular/compiler": "~20.3.25",
+    "@angular/compiler": "~20.3.27",
     "@angular/compiler-cli": "~20.3.25",
     "@angular/language-service": "~20.3.25",
     "@ionic/angular-toolkit": "~1.5.1",
