@@ -28,9 +28,10 @@
     "postcss": ">=8.5.23",
     "svgo": "2.8.3",
     "uuid": ">=11.1.1",
-    "webpack-dev-server": ">=5.2.5",
+    "webpack-dev-server": "5.2.6",
     "@tootallnate/once": ">=2.0.1",
-    "webpack-dev-server": "5.2.6"
+    "browserslist": ">=4.28.7",
+    "qs": ">=6.16.0"
   },
   "browserslist": {
     "production": [
