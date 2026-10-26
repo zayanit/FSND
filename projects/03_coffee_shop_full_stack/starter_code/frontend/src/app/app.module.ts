@@ -18,7 +18,6 @@ import { from } from 'rxjs';
 
 @NgModule({
   declarations: [AppComponent],
-  entryComponents: [],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),

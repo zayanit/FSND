@@ -7,6 +7,7 @@ import { AuthService } from 'src/app/services/auth.service';
   selector: 'app-drink-form',
   templateUrl: './drink-form.component.html',
   styleUrls: ['./drink-form.component.scss'],
+  standalone: false,
 })
 export class DrinkFormComponent implements OnInit {
   @Input() drink: Drink;
