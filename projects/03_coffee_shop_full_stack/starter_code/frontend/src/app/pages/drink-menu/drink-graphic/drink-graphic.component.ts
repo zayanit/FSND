@@ -5,6 +5,7 @@ import { Drink } from 'src/app/services/drinks.service';
   selector: 'app-drink-graphic',
   templateUrl: './drink-graphic.component.html',
   styleUrls: ['./drink-graphic.component.scss'],
+  standalone: false,
 })
 export class DrinkGraphicComponent implements OnInit {
   @Input() drink: Drink;

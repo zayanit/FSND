@@ -8,6 +8,7 @@ import { AuthService } from 'src/app/services/auth.service';
   selector: 'app-drink-menu',
   templateUrl: './drink-menu.page.html',
   styleUrls: ['./drink-menu.page.scss'],
+  standalone: false,
 })
 export class DrinkMenuPage implements OnInit {
   Object = Object;
